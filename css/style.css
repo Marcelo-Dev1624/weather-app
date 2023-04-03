@@ -9,6 +9,7 @@
 
 html{
     caret-color: teal;
+    overflow: hidden;
 }
 
 body{
@@ -38,6 +39,7 @@ body{
     font-weight: 200;
     color: #fff;
 }
+
 
 .container{
     position: relative;
@@ -201,6 +203,10 @@ padding: .5rem;
 }
 
 @media screen and (max-width:767px) {
+    html{
+        overflow: hidden;
+    }
+
     .container{
         width: 90%;
 
