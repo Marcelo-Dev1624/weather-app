@@ -78,7 +78,7 @@ body{
 
 .search-box button{
     cursor: pointer;
-padding: .5rem;
+    padding: .5rem;
     border-radius: 50%;
     font-size: 20px;
     background: #222222;
