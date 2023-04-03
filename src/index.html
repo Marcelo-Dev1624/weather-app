@@ -1,20 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
-    
+    <meta name="theme-color" content="#222222">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
     <title>Live Weather</title>
 </head>
+
 <body>
 
-    
+    <div class="container">
+        <div class="search-box">
+            <i class="fas fa-location-dot"></i>
+            <input type="text" placeholder="Type your location" id="location-search">
+            <button class="fas fa-magnifying-glass"></button>
+        </div>
+
+        <div class="not-found">
+            <img src="imgs/404.png" alt="">
+            <p>Oops, location not found!</p>
+        </div>
+
+        <div class="weather-box">
+            <img src="" alt="">
+            <p class="temperature"></p>
+            <p class="description"></p>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity">
+                <span></span>
+                <div class="weather-details-info">
+                    <i class="fas fa-water"></i>
+                    <p>Humidity</p>
+                </div>
+                
+            </div>
+
+            <div class="wind">
+                <span></span>
+                <div class="weather-details-info">
+                    <i class="fas fa-wind"></i>
+                    <p>Wind Speed</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
 
 
     <script src="js/index.js"></script>
     <script src="https://kit.fontawesome.com/0003ddee2d.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
