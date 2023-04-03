@@ -204,7 +204,7 @@ padding: .5rem;
 
 @media screen and (max-width:767px) {
     html{
-        overflow: hidden;
+        overflow-x: hidden;
     }
 
     .container{
