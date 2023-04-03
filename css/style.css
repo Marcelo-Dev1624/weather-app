@@ -49,6 +49,7 @@ body{
     border-radius: 20px;
     overflow: hidden;
     transition: .5s ease-in-out;
+    margin-bottom: 2rem;
 }
 
 .search-box{
