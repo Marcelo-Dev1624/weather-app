@@ -157,6 +157,7 @@ body{
     margin-top: 5px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .weather-details .humidity, .weather-details .wind{
